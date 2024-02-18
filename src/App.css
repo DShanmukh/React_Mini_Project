@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  
 }
 
 .App-logo {
@@ -35,4 +36,68 @@
   to {
     transform: rotate(360deg);
   }
+}
+button{
+  width: 70px;
+  height: 40px;
+  border: none;
+  border-radius: 20px;
+  background-image: linear-gradient(to right, #ed7728, #ea91d8);
+  transition-duration: 0.1ms;
+  margin-left: 30px;
+  margin-top:30px ;
+}
+p{
+  font-size: 30px; 
+  /* margin-left: 300px; */
+  text-align: center;
+  background: linear-gradient(to right, #30CFD0 0%, #330867 100%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+.div1{
+  width: 700px;
+  height: 100px;
+  border: 2px;
+  border-radius: 30px;
+  /* margin-left: 300px; */
+}
+button:hover{
+  background-image: linear-gradient(to right, #658eca, #efece9);
+}
+.div1:hover{
+  box-shadow: 1px 4px 0px 5px rgba(148,187,233,1)
+}
+.card{
+  width:1000px ;
+  height: 500px;
+  margin-top: 10px;
+  /* margin-left: 250px;  */
+  text-align: justify;
+  line-height: 30px;
+  overflow: auto;
+}
+.card.highlight {
+  background-color: #282c34;
+  color:white
+  /* background: linear-gradient(to right, #f32170, #ff6b08,#cf23cf, #eedd44);
+    -webkit-text-fill-color: transparent;
+     */
+}
+body{
+  background: rgb(238,174,202);
+background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+}
+.but1{
+  margin-left: 85%;
+  width: 150px;
+  margin-top: 1%;
+
+}
+span{
+  width: 100px;
+}
+.b{
+  margin-left: 5px;
+  color: #efece9;
 }
